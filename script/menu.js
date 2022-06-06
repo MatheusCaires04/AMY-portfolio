@@ -21,7 +21,6 @@ function removeLink() {
   const menu = document.querySelector(".menu__left");
 
   menu.classList.toggle("active");
-  alert("ok");
 }
 
 linkMenu.forEach((i) => i.addEventListener("click", removeLink));
